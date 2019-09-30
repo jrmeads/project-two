@@ -1,0 +1,288 @@
+
+body {
+    font-family: 'Big Shoulders Text', cursive;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+.extra-pic {
+    display: none;
+}
+.outer-pic {
+  display: none;
+}
+
+.main-heading {
+    background: linear-gradient(to top, rgb(205, 133, 63),70%,rgba(205, 133, 63, .25));
+    width: 100%;
+    position: relative;
+    height: 55rem;
+}
+.main-heading h1 {
+    
+    top: 0;
+    text-align: center;
+    padding: 70px 0;
+    margin: 0 auto;
+    
+}
+.main-heading img {
+    
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+.first-pic {
+    display: block;
+}
+
+.main-heading a {
+    display: block;
+    background-color: rgb(210, 180, 140);
+    max-width: 100%;
+    margin: auto;
+    
+
+}
+a:hover {
+    color: rgb(205, 133, 63);
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.main-heading li {
+    list-style-type: none;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 1.55rem;
+    
+}
+.main-heading ul {
+    padding-left: 0;
+    margin-top: 50px;
+
+}
+h2 {
+    text-align: center;
+    margin: 40px 0;
+}
+.card {
+    margin: 30px 5px;
+    border: 4px solid black;
+    border-radius: 10px;
+    font-size: 1.25em;
+    overflow: auto;
+    min-height: 350px;
+    
+    
+
+    
+}
+.card img {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+    
+}
+.card p,
+      h3 {
+          padding: 5px 20px;
+      }
+.card i {
+    bottom: 0;
+    left: 0;
+}
+footer h3{
+    text-align: center;
+    padding-top: 30px;
+}
+footer {
+    border-top: 2px solid black;
+    padding-top: 10px;
+    text-align: center;
+    
+
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 650px) {
+
+.main-heading {
+    height: 40rem;
+    margin-bottom: 160px;
+  }
+.main-heading a {
+    max-width: 100%;
+  }
+.card {
+     
+    font-size: 1.8em;
+  }
+h2 {
+    font-size: 2em;
+  }
+a {
+    font-size: 1.2em;
+  }
+h1 {
+    font-size: 2.3em;
+  }
+}
+@media (min-width: 768px) {
+
+.card {
+    max-width: 45%;
+    margin-right: 5px;
+    margin-left: 5px;
+    max-height: 520px;
+    overflow: hidden;
+    font-size: 1.3em;
+    min-height: 460px;
+    
+  }
+.left{
+    float: left;
+    
+  }
+.right {
+    float: right;
+    
+  }
+.contacts {
+    max-width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 4em;
+    font-size: 1.5em;
+  }
+h2 {
+    width: 100%;
+    margin-top: 2em;
+    display: inline-block;
+}
+.link-space {
+    
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+.link-space li {
+    padding: 10px;
+    display: inline-block;
+
+  }
+.main-heading a {
+    padding: 15px;
+    
+  }
+.first-pic {
+    display: none;
+  }
+.extra-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    max-height: 500px;
+    padding-top: 50px;
+  }
+.main-heading {
+    height: 60rem;
+
+  }
+#home {
+    padding-bottom: 0;
+  }
+
+
+
+
+
+}
+@media (min-width: 1024px) {
+
+
+.card {
+    max-width: 30%;
+    margin-right: 0px;
+    margin-left: 20px;
+    max-height: 520px;
+    overflow: hidden;
+    font-size: 1.3em;
+    min-height: 430px;
+    
+    display: inline-block;
+    float: none;
+    padding: 0px;
+
+  }
+  .contacts {
+    
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+  .link-space {
+    
+    float: right;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+  }
+.link-space li {
+    padding: 10px;
+    display: inline-block;
+    
+
+  }
+.main-heading a {
+    padding: 15px;
+  }
+.first-pic {
+    display: none;
+  }
+.extra-pic {
+    display:none;
+   
+    
+  }
+.outer-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-height: 500px;
+    padding-top: 50px;
+  }
+.main-heading h1 {
+    float: left;
+    margin-left: 20px;
+
+
+  }
+.main-heading {
+  height: 20rem;
+  margin-bottom: 75px;
+}
+
+  
+#home {
+    padding-bottom: 0;
+  }
+
+}
+@media (min-width: 1200px) {
+
+}
