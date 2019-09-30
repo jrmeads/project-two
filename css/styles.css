@@ -19,7 +19,7 @@ body {
 }
 
 .main-heading {
-    background: linear-gradient(to top, rgb(205, 133, 63),70%,rgba(205, 133, 63, .25));
+    background: linear-gradient(to top, rgb(205, 133, 63)45%,rgba(205, 133, 63, .47));
     width: 100%;
     position: relative;
     height: 55rem;
